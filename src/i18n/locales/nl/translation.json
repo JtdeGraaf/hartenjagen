@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "appName": "Hartenjagen",
+    "title": "Hartenjagen · met z'n allen aan één tafel, ieder op z'n eigen telefoon"
+  },
+  "common": {
+    "stay": "Blijven",
+    "close": "Sluiten",
+    "language": "Taal"
+  },
+  "home": {
+    "pitch": "Hartenjagen met 4 of 5, ieder met z'n eigen telefoon",
+    "name": "Je naam",
+    "nameRequired": "Schrijf eerst je naam op, dan weten de anderen wie wie is.",
+    "nameTooLong": "Die naam past niet op een schoteltje. Probeer een kortere.",
+    "words": "De vier woorden",
+    "wordsExample": "otter lamp fig violin",
+    "join": "Schuif aan",
+    "joining": "Tafel zoeken…",
+    "or": "of",
+    "start": "Dek een nieuwe tafel",
+    "starting": "Kleed op tafel…",
+    "players": "Met 4 spelers krijgt iedereen 8 kaarten. Met 5 krijgt iedereen er 6 en zijn de laatste 2 de stok."
+  },
+  "errors": {
+    "wrongWordCount_one": "De code is vier woorden. Dit was {{count}} woord.",
+    "wrongWordCount_other": "De code is vier woorden. Dit waren er {{count}}.",
+    "unknownWords_one": "\"{{words}}\" is geen codewoord. Kijk de spelling even na.",
+    "unknownWords_other": "\"{{words}}\" zijn geen codewoorden. Kijk de spelling even na.",
+    "notStarted": "Er zit niemand aan een tafel met deze woorden. Kijk ze na op typefouten, of dek zelf een nieuwe tafel.",
+    "offline": "De tafel is niet bereikbaar. Check je verbinding en probeer het nog eens."
+  },
+  "table": {
+    "connected": "Verbonden",
+    "reconnecting": "Verbinden…",
+    "scoreShort": "Stand",
+    "inviteShort": "Uitnodigen",
+    "inviteTitle": "Uitnodigen",
+    "leave": "Van tafel",
+    "leaveTitle": "Van tafel gaan?",
+    "leaveText": "Het spel gaat door zonder jou, en de anderen wachten als jij aan de beurt bent. Je kunt terugkomen met de woorden {{words}}.",
+    "opening": "Kleed uitleggen…",
+    "arriving": "Wachten tot de tafel binnenkomt van de andere telefoons…",
+    "codeLabel": "De vier woorden van deze tafel",
+    "codeHow": "Lees ze voor, of laat iemand de code scannen.",
+    "qrLabel": "QR-code die deze tafel opent",
+    "unsafe": "Iedereen met deze woorden kan dit spel zien en veranderen, en wie handig is met browsertools kan in andermans kaarten kijken. Speel met vrienden die je vertrouwt.",
+    "seated": "Aan tafel",
+    "readyToStart_one": "{{count}} aan tafel. Klaar om te delen.",
+    "readyToStart_other": "{{count}} aan tafel. Klaar om te delen.",
+    "waitingForPlayers_one": "Nog {{count}} speler nodig.",
+    "waitingForPlayers_other": "Nog {{count}} spelers nodig.",
+    "tableFull": "Er passen {{max}} aan tafel. De rest kijkt mee tot het volgende spel.",
+    "start": "Begin het spel",
+    "others": "De andere spelers",
+    "points_one": "{{count}} pt",
+    "points_other": "{{count}} ptn",
+    "middle": "Het midden van de tafel",
+    "tookTrick": "{{name}} pakt de slag",
+    "stock": "De stok",
+    "yourHand": "Je kaarten",
+    "play": "Speel {{card}}",
+    "yourTurn": "Jouw beurt",
+    "theirTurn": "{{name}} is aan de beurt",
+    "yourPoints_one": "Jij: {{count}} pt",
+    "yourPoints_other": "Jij: {{count}} ptn",
+    "watching": "Je kijkt mee met dit spel. Het volgende speel je mee.",
+    "handDone": "Ronde {{number}} is klaar.",
+    "allPointsTaken": "{{name}} pakte alle punten! De rest krijgt de 15.",
+    "deal": "Deel ronde {{number}}",
+    "waitingForDeal": "Wachten tot {{name}} deelt.",
+    "openScore": "Bekijk de stand",
+    "you": "Jij",
+    "youWin": "Jij wint!",
+    "winner": "{{name}} wint!",
+    "sharedWin": "{{names}} winnen samen!",
+    "newGame": "Nog een potje aan deze tafel",
+    "lastTrick": "Vorige slag",
+    "backToTrick": "Terug naar tafel"
+  },
+  "score": {
+    "title": "Stand",
+    "countingUp": "We tellen op, tot iemand {{target}} haalt.",
+    "countingDown": "We tellen af: wie het eerst op 0 staat, wint.",
+    "hand": "Ronde",
+    "total": "Totaal",
+    "empty": "Nog geen rondes gespeeld.",
+    "allPoints": "alles!",
+    "rules": "Elke harten is 1, de schoppenvrouw 5, de klaverboer 2. Pak je alle 15 in één ronde, dan krijgt de rest ze.",
+    "final": "De eindstand."
+  },
+  "cards": {
+    "name": "{{suit}}{{rank}}",
+    "rank": {
+      "7": "zeven",
+      "8": "acht",
+      "9": "negen",
+      "10": "tien",
+      "J": "boer",
+      "Q": "vrouw",
+      "K": "heer",
+      "A": "aas"
+    },
+    "short": {
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "J": "B",
+      "Q": "V",
+      "K": "H",
+      "A": "A"
+    },
+    "suit": {
+      "clubs": "klaver",
+      "diamonds": "ruiten",
+      "spades": "schoppen",
+      "hearts": "harten"
+    }
+  },
+  "notFound": {
+    "title": "Hier staat geen tafel",
+    "home": "Terug naar de keuken"
+  }
+}

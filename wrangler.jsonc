@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hartenjagen",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-26",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"],
+  },
+  // Unsafe shared spaces: one Durable Object per table. See README "Sharing between devices (unsafe)".
+  "durable_objects": { "bindings": [{ "name": "SHARED_SPACES", "class_name": "SharedSpace" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SharedSpace"] }],
+  "routes": [{ "pattern": "hartenjagen.graaf.dev", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false,
+}
